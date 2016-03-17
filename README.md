@@ -2,6 +2,9 @@
 Thanks to useful python code from http://scrapeomatic.blogspot.com/
 I modifified this version with update save all proxy founds in MongoDB
 Roadmap: It will check good/bad proxy then save to mongodb
+# Requirements
+python2.7
+pymongo
 
 # How it works
 - Work as multithread (each thread scraping 1 proxies website)
